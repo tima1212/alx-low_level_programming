@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - prints all possible combinations of single-digit numbers
@@ -11,10 +9,10 @@
 int main(void)
 {
 int i;
-for (i = 0; i <= 9; i++)
+for (i = 0; i <= 9; i++;)
 {
 putchar(i);
-for (i != '9')
+for (i != 9;)
 {
 putchar(',');
 putchar(' ');
