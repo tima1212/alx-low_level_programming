@@ -9,7 +9,7 @@
 int main(void)
 {
 int i;
-for (i = 0; i <= 9; i++)
+for (i = 38; i <= 47; i++)
 {
 putchar(i);
 putchar(',');
